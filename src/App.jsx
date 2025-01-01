@@ -1,19 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import './App.css';
+
+import Navbar from './components/navbar';
+import SearchBar from './components/SearchBar';
+import Header from './components/Header';
+import BrandSupport from './components/BrandSupport';
+import Products from './components/Products';
+import Support from './components/Support';
+import Explore from './components/Explore';
+import ScrollingBanner from './components/scrollingBanner';
+import BestSelling from './components/BestSelling';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div className="text-3xl underline text-red">Dolapo is a goat</div>
-    <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
-            
-    </>
+    <main>
+      <Navbar/>
+      <SearchBar/>
+      <Header/>
+      <BrandSupport/>
+      <Products/>
+      <Support/>
+      <Explore/>
+      <ScrollingBanner/>
+      <BestSelling/>
+
+      
+    </main>
   )
 }
 

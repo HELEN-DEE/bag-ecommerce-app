@@ -45,10 +45,10 @@ const Header = () => {
 
                         <button className='flex gap-2 mx-4'>
                         <div className='bg-[#e2e2e2] rounded-full p-3 border border-[#dad8d8]'>
-                            <HiArrowLeft size={15} className='bg-'/>
+                            <HiArrowLeft size={15} />
                         </div>
                         <div className='bg-white rounded-full p-3 border border-[#dad8d8]'>   
-                            <HiArrowRight size={15} className=''/>
+                            <HiArrowRight size={15} />
                         </div>
                     </button>
                     </div>

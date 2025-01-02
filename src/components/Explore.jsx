@@ -1,4 +1,5 @@
 import React from 'react'
+
 import holdBagImg from '../assets/holding-bag-1-.png'
 import holdBagImg2 from '../assets/holding-bag-2-.png'
 import { HiArrowUpRight } from "react-icons/hi2";
@@ -17,7 +18,7 @@ const explore = [
 const Explore = () => {
   return (
     <section className='mx-4 my-8'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 '>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 '>
             {explore.map((item, index) => (
                 <div key={index} className='relative rounded-xl  shadow-lg bg-gray-200'>
                     {/* text overlay */}
@@ -37,6 +38,7 @@ const Explore = () => {
             ))}
         </div>
     </section>
+    
   )
 }
 

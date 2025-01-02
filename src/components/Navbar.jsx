@@ -7,7 +7,7 @@ import { HiShoppingBag } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <section className='mx-4 my-6'>
+    <section className='mx-4 my-5'>
         <div className='flex justify-between'>
             <div className='border rounded-full border-gray-500 p-2 inline-flex hover:bg-black hover:text-gray-300'>
                 <SlMenu className='' size={15}/>

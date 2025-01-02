@@ -18,37 +18,33 @@ const radioOptions = [
 const products = [
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$195.00 USD', 
         image: bagImage1
     },
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$199.00 USD', 
         image: bagImage2
     },
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$185.00 USD', 
         image: bagImage3
     },
-    // {   
-        //     title: 'Hobo small', 
-        //     price: '$195.00 CAD', 
-        //     image: bagImage5
-        // },
+    
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$195.00 USD', 
         image: bagImage6
     },
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$199.00 USD', 
         image: bagImage4
     },
     {   
         title: 'Hobo small', 
-        price: '$195.00 CAD', 
+        price: '$200.00 USD', 
         image: bagImage7
     },
     
@@ -76,7 +72,7 @@ const Products = () => {
             </div>
 
             {/* Products collection */}
-            <div className='grid grid-cols-1 md:grid-cols-3  gap-2 my-4'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-2 my-4'>
                 
                     {products.map((product, index) => (
                         <div key={index} className='bg-[#F4F4F4] rounded-xl p-4'>
@@ -94,8 +90,8 @@ const Products = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <img src={product.image} alt={product.title} />
+                            <div className='flex justify-center  '>
+                                <img src={product.image} alt={product.title} className='h-[300px] object-contain'/>
                             </div>
                         </div>
                     ))}

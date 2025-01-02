@@ -10,6 +10,7 @@ import Support from './components/Support';
 import Explore from './components/Explore';
 import ScrollingBanner from './components/scrollingBanner';
 import BestSelling from './components/BestSelling';
+import Catalog from './components/Catalog';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Explore/>
       <ScrollingBanner/>
       <BestSelling/>
+      <Catalog/>
 
       
     </main>

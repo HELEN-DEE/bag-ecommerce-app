@@ -11,6 +11,8 @@ import Explore from './components/Explore';
 import ScrollingBanner from './components/scrollingBanner';
 import BestSelling from './components/BestSelling';
 import Catalog from './components/Catalog';
+import CollectionList from './components/CollectionList';
+
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
       <ScrollingBanner/>
       <BestSelling/>
       <Catalog/>
+      <CollectionList/>
+      
 
       
     </main>

@@ -70,6 +70,7 @@ const BestSelling = () => {
                     </div>
                 ) )}
             </div>
+            
         </div>
     </section>
   )
